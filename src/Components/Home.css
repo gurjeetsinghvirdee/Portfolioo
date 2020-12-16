@@ -1,0 +1,97 @@
+.home {
+    display: flex;
+    padding: 0 15%;
+    justify-content: flex-start;
+    align-items: center;
+    height: 85vh;
+    background-image: url('../assets/cover.jpg');
+    background-size: cover;
+    background-position: top right;
+    position: relative;
+    z-index: 1;
+}
+
+.home::after {
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    height: 85vh;
+    width: 100%;
+    background-color: black;
+    opacity: .5;
+    z-index: -1;
+}
+
+.home h1 {
+    color: transparent;
+    margin: 5px 0;
+    position: relative;
+    width: fit-content;
+    animation: text-reveal .5s ease-in forwards;
+    animation-delay: .5s;
+}
+
+.home h1:nth-child(1) {
+    animation-delay: 1s;
+}
+
+.home h1:nth-child(2) {
+    animation-delay: 2s;
+} 
+
+.home h1:nth-child(1) span {
+    animation-delay: .5s;
+}
+
+.home h1:nth-child(2) span {
+    animation-delay: 1.5s;
+}
+
+.home h1 span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: #18d26e;
+    animation: text-reveal-box 1s ease-in;
+}
+
+.home a {
+    text-decoration: none;
+}
+
+.home__button {
+    display: inline-block;
+    border: 2px solid #18d26e;
+    padding: 10px 30px;
+    color: #18d26e;
+    font-size: 1.2rem;
+    transition: .3s ease-in;
+    transition-property: background-color, color;
+    margin-top: 20px;
+}
+
+.home__button:hover {
+    color: white;
+    background-color: #18d26e;
+}
+
+@keyframes text-reveal-box {
+    50% {
+        left: 0;
+        width: 100%;
+    }
+
+    100% {
+        width: 0;
+        left: 100%;
+    }
+}
+
+@keyframes text-reveal {
+    100% {
+        color: white;
+    }
+}
