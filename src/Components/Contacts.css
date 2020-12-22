@@ -1,0 +1,69 @@
+.contacts {
+    background-color: rgba(0, 0, 0, 0.5);
+    max-width: 920px;
+    padding: 16px;
+    margin: 24px auto 0 auto;
+    height: 73vh;
+    color: white;
+}
+
+.contact__row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contact__block {
+    padding: 11.2px 16px;
+    margin: 16px;
+    background-color: rgba(46, 49, 49, 0.5);
+    width: 390px;
+}
+
+.contact__block a {
+    text-decoration: none;
+    color: white;
+}
+
+.contact__icons {
+    display: flex;
+    align-items: center;
+}
+
+.big__icons {
+    font-size: 32px;
+    color: #18d26e;
+    padding: 9.6px;
+    background-color: rgba(46, 49, 49, 0.9);
+    border-radius: 50%;
+    margin: 16px 16px 16px 0;
+}
+
+.logo {
+    color: white;
+    font-size: 28.8px;
+    margin: 0 5px;
+}
+
+.logo:hover {
+    color: #18d26e;
+}
+
+@media screen and (max-width: 1024px) {
+    .contacts {
+        max-width: 800px;
+    }.contact__block {
+        width: 325px;
+    }
+}
+
+@media screen and (max-width: 910px) {
+    .contacts {
+        max-width: 680px;
+    }.contact__block {
+        width: 275px;
+    }
+}
+
+
+

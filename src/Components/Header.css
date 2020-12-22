@@ -2,9 +2,8 @@
     display: flex;
     justify-content: space-between;
     width: 1000px;
-    margin: 0 auto;
     padding: 0 10%;
-   
+    background-color: rgba(0, 0, 0,.5);
 }
 
 header > h1 {
@@ -16,10 +15,37 @@ header > h1 {
     padding-top: 30px;
 }
 
-.header__nav  a{
+.header__nav a{
     display: inline-block;
     text-decoration: none;
     color: white;
-    margin: 0 0 0 25px;
+    margin: 0 25px 0 0;
+    padding-bottom: 5px;
 }
 
+.links {
+    text-decoration: none;
+    color: white;
+}
+
+.underlineEffect {
+    position: relative;
+}
+
+.underlineEffect::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    height: 3px;
+    background-color: #18d26e;
+    visibility: hidden;
+    transition: all 0.3s ease-in;
+    transform: scaleX(0);
+}
+
+.underlineEffect:hover:before {
+    visibility: visible;
+    transform: scaleX(1);
+}
