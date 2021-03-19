@@ -14,10 +14,8 @@ function Header() {
                     <Link to='/resume' className="underlineEffect">Resume</Link>
                     <Link to='/works' className="underlineEffect">Works</Link>
                     <Link to='/contacts' className="underlineEffect">Contacts</Link>
-                   
                 </nav>
             </div>
-            
         </header>
     )
 }
