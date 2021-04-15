@@ -1,0 +1,8 @@
+.works {
+    background-color: rgba(0, 0, 0, 0.5);
+    max-width: 920px;
+    padding: 16px;
+    margin: 24px auto 0 auto;
+    height: 73vh;
+    color: white;
+}

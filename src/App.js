@@ -5,6 +5,7 @@ import Home from "./Components/Home";
 import About from './Components/About';
 import Contacts from './Components/Contacts';
 import {BrowserRouter, Switch, Route} from 'react-router-dom';
+import Works from "./Components/Works";
 
 function App() {
   return (
@@ -21,6 +22,10 @@ function App() {
           <Route path="/contacts" >
             <Header />
             <Contacts />
+          </Route>
+          <Route path="/works">
+            <Header />
+            <Works />
           </Route>
         </Switch>
       </div>

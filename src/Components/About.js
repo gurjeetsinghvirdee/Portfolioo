@@ -17,7 +17,7 @@ function About() {
                 </div>
                 <div className="about__row__info" >
                     <h3>Full Stack Web Developer</h3>
-                    <p>Skilled React on JavaScript full stack web developer eager to join a creative, problem solving team. Ability to learn and implement new technologies quickly. My skills include React on JavaScript, HTML5, CSS3, Sass, Node.js ,Redux ,BootStrap and MongoDB. These skills were learned at Web Development Intermediate program.</p>
+                    <p>I am a self-taught React JS Developer with a strong eye for innovative design and eager to join a creative, problem solving team. Ability to learn and implement new technologies quickly.</p>
                     <ul className="grid">
                         <li className="grid__icon"><RiArrowRightSFill/><strong className="grid__item">Birthday:</strong><p className="grid__item"> 05 May 2000</p></li>
                         <li className="grid__icon"><RiArrowRightSFill/><strong className="grid__item">Phone:</strong><p className="grid__item"> +91 9009191209</p></li>

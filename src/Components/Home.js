@@ -15,10 +15,11 @@ function Home() {
                         <Link to='/about' className="underlineEffect">About</Link>
                         <Link to='/resume' className="underlineEffect">Resume</Link>
                         <Link to='/works' className="underlineEffect">Works</Link>
+                        <Link to='/blogs' className="underlineEffect">Blogs</Link>
                         <Link to='/contacts' className="underlineEffect">Contacts</Link>
                     </nav>
                 </div>
-                <a className="home__button" href="#" type="button"><BsCardText className="icons"/>Download Resume</a>
+                <a className="home__button" href="https://drive.google.com/file/d/1uaw5qe-nCQgdBfAdg29axhQL_P3wC8nc/view?usp=sharing" type="button"><BsCardText className="icons"/>Download Resume</a>
             </div>
         </div>
     )
