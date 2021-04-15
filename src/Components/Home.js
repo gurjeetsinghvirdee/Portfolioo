@@ -19,7 +19,7 @@ function Home() {
                         <Link to='/contacts' className="underlineEffect">Contacts</Link>
                     </nav>
                 </div>
-                <a className="home__button" href="https://drive.google.com/file/d/1uaw5qe-nCQgdBfAdg29axhQL_P3wC8nc/view?usp=sharing" type="button"><BsCardText className="icons"/>Download Resume</a>
+                <a className="home__button" href="https://drive.google.com/file/d/1uaw5qe-nCQgdBfAdg29axhQL_P3wC8nc/view?usp=sharing" target="_blank" rel="noreferrer" type="button"><BsCardText className="icons"/>Download Resume</a>
             </div>
         </div>
     )
